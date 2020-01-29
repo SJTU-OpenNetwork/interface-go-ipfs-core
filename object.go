@@ -2,10 +2,10 @@ package iface
 
 import (
 	"context"
-	path "github.com/ipfs/interface-go-ipfs-core/path"
+	path "github.com/SJTU-OpenNetwork/interface-go-ipfs-core/path"
 	"io"
 
-	"github.com/ipfs/interface-go-ipfs-core/options"
+	"github.com/SJTU-OpenNetwork/interface-go-ipfs-core/options"
 
 	"github.com/ipfs/go-cid"
 	ipld "github.com/ipfs/go-ipld-format"

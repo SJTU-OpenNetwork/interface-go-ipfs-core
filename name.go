@@ -3,9 +3,9 @@ package iface
 import (
 	"context"
 	"errors"
-	path "github.com/ipfs/interface-go-ipfs-core/path"
+	path "github.com/SJTU-OpenNetwork/interface-go-ipfs-core/path"
 
-	"github.com/ipfs/interface-go-ipfs-core/options"
+	"github.com/SJTU-OpenNetwork/interface-go-ipfs-core/options"
 )
 
 var ErrResolveFailed = errors.New("could not resolve name")
